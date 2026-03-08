@@ -13,21 +13,6 @@ HMM-Speech-Recognition/
 
 ```
 
-Analiz ve Sonuçlar 
-
-### Gürültü Etkisi
-
-Ses verisindeki gürültü, HMM modelindeki **Emisyon Olasılıklarını (B matrisi)** doğrudan etkiler. Gürültü, gözlem dizisindeki (High/Low) netliği bozarak fonemler arasındaki ayırt ediciliği azaltır ve modelin hata payını artırır.
-
-### Neden Derin Öğrenme?
-
-Gerçek dünyadaki binlerce kelimelik sistemlerde Viterbi ve geleneksel HMM yerine Derin Öğrenme (Deep Learning) tercih edilmektedir çünkü: 
-
-* Derin öğrenme modelleri (LSTM, Transformer), uzun vadeli bağlamsal ilişkileri daha iyi yakalar.
-* Büyük veri setlerinde ölçeklenebilirlik ve doğruluk oranları HMM'den çok daha yüksektir.
-* Manuel özellik çıkarımı (feature engineering) yerine uçtan uca öğrenme imkanı sunar.
-
-
 ## Teslim Bilgileri
 
 * **Öğrenci:** Sadık Ahmet Çağlın
