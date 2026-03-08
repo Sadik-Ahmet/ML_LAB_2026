@@ -24,31 +24,25 @@ Konuşma sinyalleri, fonem adı verilen ses birimlerinden oluşur. Temel problem
 
 ## 2. Veri
 
-* 
-**Gizli Durumlar ($S$):** Kelimeyi oluşturan fonemler (Örn: "e", "v").
+* **Gizli Durumlar ($S$):** Kelimeyi oluşturan fonemler (Örn: "e", "v").
 
 
-* 
-**Gözlemler ($O$):** Sesin frekans karakteristiğini temsil eden "High" ve "Low" değerleri.
+* **Gözlemler ($O$):** Sesin frekans karakteristiğini temsil eden "High" ve "Low" değerleri.
 
 
-* 
-**Eğitim Verisi:** Her kelime için önceden tanımlanmış gözlem dizileri.
+* **Eğitim Verisi:** Her kelime için önceden tanımlanmış gözlem dizileri.
 
 
 
 ## 3. Yöntem
 
-* 
-**Teorik Hesaplama:** En olası fonem dizisini bulmak için **Viterbi Algoritması** kullanılmıştır.
+* **Teorik Hesaplama:** En olası fonem dizisini bulmak için **Viterbi Algoritması** kullanılmıştır.
 
 
-* 
-**Uygulama:** Python'da `hmmlearn` kütüphanesi kullanılarak her kelime için ayrı HMM modelleri tanımlanmıştır.
+* **Uygulama:** Python'da `hmmlearn` kütüphanesi kullanılarak her kelime için ayrı HMM modelleri tanımlanmıştır.
 
 
-* 
-**Sınıflandırma:** Yeni gelen bir ses verisinin hangi modelde daha yüksek **Log-Likelihood** (olasılık puanı) verdiği hesaplanmıştır.
+* **Sınıflandırma:** Yeni gelen bir ses verisinin hangi modelde daha yüksek **Log-Likelihood** (olasılık puanı) verdiği hesaplanmıştır.
 
 
 
@@ -63,14 +57,10 @@ Konuşma sinyalleri, fonem adı verilen ses birimlerinden oluşur. Temel problem
 
 ## 5. Yorum ve Tartışma
 
-* 
-**Gürültü Etkisi:** Ses verisindeki gürültü, Emisyon Olasılıklarını ($B$ matrisi) bozarak gözlemlerin ayırt ediciliğini düşürür ve yanlış sınıflandırmalara neden olur.
+* **Gürültü Etkisi:** Ses verisindeki gürültü, Emisyon Olasılıklarını ($B$ matrisi) bozarak gözlemlerin ayırt ediciliğini düşürür ve yanlış sınıflandırmalara neden olur.
 
 
-* 
-**DL vs. HMM:** Binlerce kelimelik gerçek sistemlerde, HMM'in sınırlı bağlam kapasitesi ve yüksek hesaplama maliyeti nedeniyle, uzun vadeli ilişkileri daha iyi kurabilen Derin Öğrenme yapıları tercih edilmektedir.
-
-
+* **DL vs. HMM:** Binlerce kelimelik gerçek sistemlerde, HMM'in sınırlı bağlam kapasitesi ve yüksek hesaplama maliyeti nedeniyle, uzun vadeli ilişkileri daha iyi kurabilen Derin Öğrenme yapıları tercih edilmektedir.
 
 ---
 
