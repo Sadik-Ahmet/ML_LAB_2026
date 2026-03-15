@@ -47,13 +47,4 @@ Veri setine hatalı bir gözlem (200 araç) eklenerek MLE'nin bu duruma hassasiy
 
 
 * **Matplotlib:** Veri görselleştirme.
-
-
-
-### 🚀 Nasıl Çalıştırılır?
-
-1. Repoyu klonlayın.
-2. Gerekli kütüphaneleri yükleyin: `pip install numpy scipy matplotlib`.
-3. `homework2_mle_traffic.ipynb` dosyasını Jupyter Notebook veya VS Code üzerinden çalıştırın.
-
 ---
