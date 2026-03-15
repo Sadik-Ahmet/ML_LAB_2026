@@ -1,7 +1,4 @@
 ---
-
-## README.md Önerisi
-
 # YZM212 Makine Öğrenmesi - 2. Laboratuvar Ödevi
 
 ## MLE ile Akıllı Şehir Planlaması (Trafik Yoğunluğu Analizi)
@@ -22,8 +19,7 @@ Poisson dağılımı için Olabilirlik (Likelihood) ve Log-Olabilirlik (Log-Like
 
 `scipy.optimize.minimize` kütüphanesi kullanılarak Negatif Log-Olabilirlik (NLL) fonksiyonu minimize edilmiştir.
 
-* 
-**Veri Seti:** 14 farklı zaman diliminde kaydedilen trafik verisi.
+* **Veri Seti:** 14 farklı zaman diliminde kaydedilen trafik verisi.
 
 
 * **Sonuç:** Analitik ve sayısal yöntemlerin birbirine son derece yakın sonuçlar verdiği (yaklaşık 11.93) doğrulanmıştır.
@@ -36,12 +32,10 @@ Bulunan $\hat{\lambda}$ değeri ile oluşturulan Poisson Olasılık Kütle Fonks
 
 Veri setine hatalı bir gözlem (200 araç) eklenerek MLE'nin bu duruma hassasiyeti test edilmiştir.
 
-* 
-**Bulgu:** Tek bir aykırı değerin $\lambda$ tahminini yaklaşık %106 oranında saptırdığı gözlemlenmiştir.
+* **Bulgu:** Tek bir aykırı değerin $\lambda$ tahminini yaklaşık %106 oranında saptırdığı gözlemlenmiştir.
 
 
-* 
-**Risk:** Hatalı modelin, belediyeyi gereksiz yol genişletme gibi maliyetli ve yanlış altyapı kararlarına sürükleyebileceği tartışılmıştır.
+* **Risk:** Hatalı modelin, belediyeyi gereksiz yol genişletme gibi maliyetli ve yanlış altyapı kararlarına sürükleyebileceği tartışılmıştır.
 
 
 
@@ -49,12 +43,10 @@ Veri setine hatalı bir gözlem (200 araç) eklenerek MLE'nin bu duruma hassasiy
 
 * **Python 3.x**
 * **NumPy:** Veri manipülasyonu.
-* 
-**SciPy (optimize & stats):** NLL minimizasyonu ve PMF hesaplamaları.
+* **SciPy (optimize & stats):** NLL minimizasyonu ve PMF hesaplamaları.
 
 
-* 
-**Matplotlib:** Veri görselleştirme.
+* **Matplotlib:** Veri görselleştirme.
 
 
 
